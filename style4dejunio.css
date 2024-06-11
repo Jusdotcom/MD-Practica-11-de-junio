@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald :wght@200..700&display=intercambio');
+
+.seccion1 {
+    background-color: coral;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    /* con margin auto se centra */
+    width: 50%;
+}
+.seccion2 {
+    background-color: rgb(145, 122, 113);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    /* con margin auto se centra */
+    width: 50%;
+}
+.seccion3 {
+    background-color: rgb(255, 205, 80);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    /* con margin auto se centra */
+    width: 50%;
+}
+.seccion4 {
+    background-color: rgb(80, 170, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    /* con margin auto se centra */
+    width: 50%;
+}
+.columnas {
+    display: flex;
+    flex-direction:row;
+}
+
+
+.logo {
+    width: 10%;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+/* puedo usar pixeles o porcentajes */
+.navbar {
+    background-image: url("./imagenes/Cesped-Arpasa.jpeg");
+    margin: 8px;
+
+}
+
+/* para cambiar color de los botones de bootstrap con !important se sobrepone a las propiedades */
+.btn-group {
+    background-color: beige !important;
+   
+}
+
+.Oswald {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
